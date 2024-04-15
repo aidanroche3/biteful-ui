@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{assign_flag.run().then(() => {\n  get_flags.run();\n});}}",
-    "topRow": 105,
+    "topRow": 86,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
     "leftColumn": 15,
@@ -119,7 +119,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 146,
+    "originalBottomRow": 127,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -218,7 +218,7 @@
         "buttonVariant": "PRIMARY"
     },
     "displayName": "JSON Form",
-    "bottomRow": 146,
+    "bottomRow": 127,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Update Flag",
@@ -241,7 +241,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 105,
+    "originalTopRow": 86,
     "mobileLeftColumn": 22,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
