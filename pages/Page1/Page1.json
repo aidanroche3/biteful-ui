@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 690,
+          "bottomRow": 1460,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -33,6 +33,19 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Page1_get_flags",
+              "name": "get_flags",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "FlagGetForm.formData",
+                "FlagGetForm.formData.ReviewID"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
