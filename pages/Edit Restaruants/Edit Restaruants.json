@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Write Review",
-    "slug": "write-review",
+    "name": "Edit Restaruants",
+    "slug": "edit-restaruants",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 980,
+          "bottomRow": 860,
           "containerStyle": "none",
-          "snapRows": 75,
+          "snapRows": 98,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 770,
+          "minHeight": 1000,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Write Review",
+        "id": "Edit Restaruants",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661c9a9526be11636cf18a3a_661deab9f733de0c6744b54e"
+  "gitSyncId": "661cd1c8c740730772eaa9d5_661e1e356276050c93cf5d90"
 }

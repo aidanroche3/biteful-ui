@@ -11,8 +11,8 @@
         "click",
         "submit"
     ],
-    "topRow": 3,
-    "bottomRow": 9,
+    "topRow": 2,
+    "bottomRow": 10,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {"groupButton1": {
@@ -34,7 +34,7 @@
     "animateLoading": true,
     "parentColumnSpace": 15.615966796875,
     "dynamicTriggerPathList": [{"key": "groupButtons.groupButton1.onClick"}],
-    "leftColumn": 20,
+    "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"}
@@ -42,7 +42,7 @@
     "key": "o28bkg60ch",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 48,
+    "rightColumn": 17,
     "widgetId": "pxtj817itj",
     "minWidth": 450,
     "isVisible": true,

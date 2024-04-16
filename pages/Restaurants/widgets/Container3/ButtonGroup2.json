@@ -11,8 +11,8 @@
         "click",
         "submit"
     ],
-    "topRow": 58,
-    "bottomRow": 66,
+    "topRow": 55,
+    "bottomRow": 63,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
@@ -31,6 +31,7 @@
             "isDisabled": false
         },
         "groupButton2": {
+            "onClick": "{{navigateTo('Write Review', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "add",
             "buttonColor": "#231f20",
@@ -48,7 +49,10 @@
     "mobileRightColumn": 26,
     "animateLoading": true,
     "parentColumnSpace": 7.50146484375,
-    "dynamicTriggerPathList": [{"key": "groupButtons.groupButton1.onClick"}],
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"}
+    ],
     "leftColumn": 3,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
@@ -69,9 +73,9 @@
     "mobileTopRow": 56,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 58,
+    "originalTopRow": 55,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 2,
-    "originalBottomRow": 66,
+    "originalBottomRow": 63,
     "buttonVariant": "PRIMARY"
 }
