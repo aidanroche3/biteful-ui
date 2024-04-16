@@ -22,6 +22,8 @@
     },
     {
       "id": "Edit Restaruants",
+      "isDefault": false
+    },
     {
       "id": "Write Review",
       "isDefault": false
