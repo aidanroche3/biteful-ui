@@ -9,12 +9,16 @@
       "isDefault": false
     },
     {
-      "id": "Restaraunts",
+      "id": "Restaurants",
       "isDefault": false
     },
     {
       "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "Write Review",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -22,6 +26,9 @@
   "unreadCommentThreads": 0,
   "color": "#F4FFDE",
   "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
     "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [

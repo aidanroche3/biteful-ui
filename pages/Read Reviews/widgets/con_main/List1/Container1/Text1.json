@@ -32,7 +32,7 @@
     "text": "{{currentItem.firstName}} {{currentItem.lastName}}",
     "key": "edtx8v01wa",
     "isDeprecated": false,
-    "rightColumn": 49,
+    "rightColumn": 31,
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
     "widgetId": "5vitwywlz7",

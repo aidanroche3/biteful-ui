@@ -37,6 +37,6 @@
     "originalTopRow": 8,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 25,
-    "originalBottomRow": 29,
+    "originalBottomRow": 34,
     "enableRotation": false
 }

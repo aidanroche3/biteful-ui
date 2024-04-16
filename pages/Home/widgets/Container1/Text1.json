@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 1,
-    "bottomRow": 8,
+    "topRow": 0,
+    "bottomRow": 7,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "HOME",
+    "text": "BITEFUL",
     "key": "5fquwtvpk5",
     "isDeprecated": false,
     "rightColumn": 39,
@@ -48,11 +48,11 @@
     "isLoading": false,
     "mobileTopRow": 3,
     "responsiveBehavior": "fill",
-    "originalTopRow": 1,
+    "originalTopRow": 0,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 4,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 8,
+    "originalBottomRow": 7,
     "fontSize": "3rem",
     "minDynamicHeight": 4
 }
