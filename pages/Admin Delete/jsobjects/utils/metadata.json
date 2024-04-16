@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Admin Delete",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Admin Delete_utils",
+  "deleted": false,
+  "gitSyncId": "661e185e9489670726fdb73b_661e1e14258c927851f2eeff"
+}
