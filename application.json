@@ -1,7 +1,19 @@
 {
   "pages": [
     {
+      "id": "Read Reviews",
+      "isDefault": false
+    },
+    {
       "id": "Page1",
+      "isDefault": false
+    },
+    {
+      "id": "Restaraunts",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
       "isDefault": true
     }
   ],
@@ -9,6 +21,9 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#F4FFDE",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [
     {
       "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
