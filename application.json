@@ -17,6 +17,12 @@
       "isDefault": true
     },
     {
+      "id": "Add Restaruants",
+      "isDefault": false
+    },
+    {
+      "id": "Edit Restaruants",
+    {
       "id": "Write Review",
       "isDefault": false
     }
