@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 12.265625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 17,
+    "leftColumn": 24,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Reviews",
     "key": "z5sbo5jbv6",
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 41,
     "textAlign": "CENTER",
     "dynamicHeight": "FIXED",
     "widgetId": "e0tna1cm65",

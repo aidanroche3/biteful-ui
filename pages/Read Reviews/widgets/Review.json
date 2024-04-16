@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 12,
     "widgetName": "Review",
-    "onClick": "",
+    "onClick": "{{navigateTo('Write Review', {}, 'SAME_WINDOW');}}",
     "buttonColor": "#22c55e",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

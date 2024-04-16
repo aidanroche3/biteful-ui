@@ -20,7 +20,7 @@
     "fontFamily": "Rubik",
     "parentColumnSpace": 6.900390625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 20,
+    "leftColumn": 19,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"},
@@ -31,7 +31,7 @@
     "text": "Write A Review",
     "key": "qksr79943t",
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 45,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "nrhpqcrwho",
