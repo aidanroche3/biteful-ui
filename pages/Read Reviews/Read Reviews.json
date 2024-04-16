@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1480,
+          "bottomRow": 1060,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -44,7 +44,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "Select1.selectedOptionValue"
+                "Restaurant_Select.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -56,7 +56,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "Select1.selectedOptionValue"
+                "Restaurant_Select.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

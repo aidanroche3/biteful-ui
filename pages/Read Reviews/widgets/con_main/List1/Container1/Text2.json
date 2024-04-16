@@ -10,13 +10,13 @@
         "paragraph",
         "label"
     ],
-    "topRow": 4,
-    "bottomRow": 9,
+    "topRow": 8,
+    "bottomRow": 17,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 24,
     "animateLoading": true,
-    "overflow": "NONE",
+    "overflow": "TRUNCATE",
     "dynamicTriggerPathList": [],
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicBindingPathList": [

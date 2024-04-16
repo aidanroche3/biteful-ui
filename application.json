@@ -9,7 +9,7 @@
       "isDefault": false
     },
     {
-      "id": "Restaraunts",
+      "id": "Restaurants",
       "isDefault": false
     },
     {
@@ -22,6 +22,8 @@
     },
     {
       "id": "Edit Restaruants",
+    {
+      "id": "Write Review",
       "isDefault": false
     }
   ],
