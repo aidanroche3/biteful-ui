@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Read Reviews",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Read Reviews_utils",
+  "deleted": false,
+  "gitSyncId": "661c9a9526be11636cf18a3a_661dac9bf733de0c6744b4dc"
+}
