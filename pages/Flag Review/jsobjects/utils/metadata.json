@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Flag Review",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Flag Review_utils",
+  "deleted": false,
+  "gitSyncId": "661c9a9526be11636cf18a3a_66203af53d6cc6317d6344e8"
+}

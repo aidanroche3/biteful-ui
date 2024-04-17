@@ -30,6 +30,7 @@
             "isDisabled": false
         },
         "groupButton2": {
+            "onClick": "{{navigateTo('Approve Restaurants', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "small-tick",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -47,7 +48,10 @@
     "mobileRightColumn": 43,
     "animateLoading": true,
     "parentColumnSpace": 18.621337890625,
-    "dynamicTriggerPathList": [{"key": "groupButtons.groupButton1.onClick"}],
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"}
+    ],
     "leftColumn": 6,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
@@ -72,6 +76,6 @@
     "originalTopRow": 66,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 19,
-    "originalBottomRow": 80,
+    "originalBottomRow": 79,
     "buttonVariant": "PRIMARY"
 }

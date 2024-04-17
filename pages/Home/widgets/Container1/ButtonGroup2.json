@@ -16,7 +16,8 @@
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButton3": {
-            "buttonType": "MENU",
+            "onClick": "{{navigateTo('Flag Review', {}, 'SAME_WINDOW');}}",
+            "buttonType": "SIMPLE",
             "iconName": "flag",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
@@ -98,7 +99,8 @@
     "parentColumnSpace": 18.621337890625,
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton1.onClick"},
-        {"key": "groupButtons.groupButton2.onClick"}
+        {"key": "groupButtons.groupButton2.onClick"},
+        {"key": "groupButtons.groupButton3.onClick"}
     ],
     "leftColumn": 6,
     "dynamicBindingPathList": [
@@ -122,9 +124,9 @@
     "mobileTopRow": 92,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 92,
+    "originalTopRow": 87,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 19,
-    "originalBottomRow": 96,
+    "originalBottomRow": 98,
     "buttonVariant": "PRIMARY"
 }

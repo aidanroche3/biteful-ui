@@ -4,6 +4,7 @@
     "mobileBottomRow": 63,
     "widgetName": "ButtonGroup2",
     "isCanvas": false,
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
     "searchTags": [
@@ -14,51 +15,37 @@
     "bottomRow": 65,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
-    "groupButtons": {
-        "groupButton1": {
-            "onClick": "{{Approve.run();\nget_restaurants.run()}}",
-            "buttonType": "SIMPLE",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "",
-            "menuItems": {},
-            "index": 0,
-            "label": "Approve",
-            "id": "groupButton1",
-            "placement": "CENTER",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "groupButton2": {
-            "buttonType": "SIMPLE",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "",
-            "menuItems": {},
-            "index": 1,
-            "label": "Deny",
-            "id": "groupButton2",
-            "placement": "CENTER",
-            "isVisible": true,
-            "isDisabled": false
-        }
-    },
+    "groupButtons": {"groupButton1": {
+        "onClick": "{{Approve.run();\nget_restaurants.run()}}",
+        "buttonType": "SIMPLE",
+        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "widgetId": "",
+        "menuItems": {},
+        "index": 0,
+        "label": "Approve",
+        "id": "groupButton1",
+        "placement": "CENTER",
+        "isVisible": true,
+        "isDisabled": false
+    }},
     "hideCard": false,
     "mobileRightColumn": 31,
     "animateLoading": true,
     "parentColumnSpace": 9.38037109375,
     "dynamicTriggerPathList": [{"key": "groupButtons.groupButton1.onClick"}],
-    "leftColumn": 6,
+    "leftColumn": 8,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"},
-        {"key": "groupButtons.groupButton2.buttonColor"}
+        {"key": "isVisible"}
     ],
     "key": "2fghapu3i2",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 54,
+    "rightColumn": 56,
     "widgetId": "2eak6w9dq9",
     "minWidth": 450,
-    "isVisible": true,
+    "isVisible": "{{Rest_List.selectedItem != null}}",
     "version": 1,
     "parentId": "edn8ayp78r",
     "tags": ["Buttons"],
@@ -67,9 +54,9 @@
     "mobileTopRow": 59,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 54,
+    "originalTopRow": 57,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 7,
-    "originalBottomRow": 65,
+    "originalBottomRow": 68,
     "buttonVariant": "PRIMARY"
 }
