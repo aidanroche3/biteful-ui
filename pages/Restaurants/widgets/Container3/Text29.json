@@ -2,6 +2,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 39,
     "widgetName": "Text29",
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -9,8 +10,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 37,
-    "bottomRow": 41,
+    "topRow": 38,
+    "bottomRow": 46,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -24,7 +25,8 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "text"},
+        {"key": "isVisible"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -36,7 +38,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "7keojtuias",
     "minWidth": 450,
-    "isVisible": true,
+    "isVisible": "{{List1.selectedItem != null}}",
     "fontStyle": "BOLD",
     "textColor": "#1e3a8a",
     "version": 1,

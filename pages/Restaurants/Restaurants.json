@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 860,
+          "bottomRow": 940,
           "containerStyle": "none",
           "snapRows": 75,
           "parentRowSpace": 1,
@@ -32,7 +32,9 @@
               "name": "get_restaurants",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "true"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
@@ -40,28 +42,6 @@
             {
               "id": "Restaurants_get_reviews",
               "name": "get_reviews",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "List1.selectedItem.restaurantID"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Restaurants_get_average_rating",
-              "name": "get_average_rating",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "List1.selectedItem.restaurantID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Restaurants_get_most_recent_review",
-              "name": "get_most_recent_review",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
