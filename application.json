@@ -5,10 +5,6 @@
       "isDefault": false
     },
     {
-      "id": "SampleForms",
-      "isDefault": false
-    },
-    {
       "id": "Restaurants",
       "isDefault": false
     },
@@ -34,6 +30,10 @@
     },
     {
       "id": "Approve Restaurants",
+      "isDefault": false
+    },
+    {
+      "id": "Flag Review",
       "isDefault": false
     }
   ],

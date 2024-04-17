@@ -10,8 +10,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 46,
-    "bottomRow": 51,
+    "topRow": 41,
+    "bottomRow": 45,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -51,11 +51,11 @@
     "isLoading": false,
     "mobileTopRow": 46,
     "responsiveBehavior": "fill",
-    "originalTopRow": 41,
+    "originalTopRow": 46,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 41,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 45,
+    "originalBottomRow": 51,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
