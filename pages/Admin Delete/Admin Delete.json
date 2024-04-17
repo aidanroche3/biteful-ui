@@ -32,52 +32,8 @@
               "name": "get_restaurants",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Admin Delete_get_reviews",
-              "name": "get_reviews",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
               "jsonPathKeys": [
-                "Select1.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Admin Delete_get_average_rating",
-              "name": "get_average_rating",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Select1.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Admin Delete_get_most_recent_review",
-              "name": "get_most_recent_review",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "get_restaurants.data[Select1.selectedOptionValue].restaurantID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin Delete_get_restaurants_detail",
-              "name": "get_restaurants_detail",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Select1.selectedOptionValue"
+                "true"
               ],
               "timeoutInMillisecond": 10000
             }

@@ -13,8 +13,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 35,
-    "bottomRow": 39,
+    "topRow": 36,
+    "bottomRow": 40,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
