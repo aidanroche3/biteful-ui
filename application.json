@@ -31,6 +31,10 @@
     {
       "id": "Admin Delete",
       "isDefault": false
+    },
+    {
+      "id": "Approve Restaurants",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Approve Restaurants",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Approve Restaurants_utils",
+  "deleted": false,
+  "gitSyncId": "662022338c3acc297f91595b_6620307e5a41800a614ea7cd"
+}
